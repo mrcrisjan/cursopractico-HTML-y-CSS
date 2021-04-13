@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+}
+
+main .main-header {
+    width: 220px;
+    height: 100px;
+    margin: 40px auto 5px;
+}
+
+main .main-header .main-header-logo {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Wikipedia_wordmark.svg/750px-Wikipedia_wordmark.svg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+main .main-header p {
+    text-align: center;
+    font-size: 15px;
+    font-family: Linux Libertine,Georgia,Times,serif;
+}
+
+main .main-menus {
+    width: 546px;
+    height: 325px;
+    margin: 0 auto;
+    background-image: url('https://www.pngkey.com/png/full/68-689738_wikipedia-logo-wikipedia-logo-transparent-background.png');
+    background-size: 35% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main .main-menus div a {
+    width: 156px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-menus a .main-menus-title {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #36c;
+}
+
+main .main-menus a .main-menus-description {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #54595d;
+}
+
+main .main-menus a.menu3 {
+    margin-right: 100px;
+}
+
+main .main-menus a.menu4 {
+    margin-left: 100px;
+}
+main .main-menus a.menu5 {
+    margin-right: 120px;
+}
+
+main .main-menus a.menu6 {
+    margin-left: 120px;
+}
+main .main-menus a.menu7 {
+    margin-right: 100px;
+}
+
+main .main-menus a.menu8 {
+    margin-left: 100px;
+}
+
+main .main-menus div a:hover {
+    background-color: #eaecf0;
+}
+
+main .main-menus div a:hover > .main-menus-title {
+    text-decoration: underline;
+}
